@@ -1,0 +1,572 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1134
+>>
+stream
+0.200025 w
+0 G
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -5. re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.22 0.741 0.973 rg
+48. 740. Td
+(HARBORTECH SOLUTIONS) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 726. Td
+(Cloud Operations Support Practice) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 672. Td
+(IT 4560 · Week 06 Lab Submission) Tj
+ET
+BT
+/F2 24 Tf
+27.5999999999999979 TL
+0.886 0.941 0.984 rg
+48. 634. Td
+(Do We Need a Server? Compute Model) Tj
+T* (Recommendation) Tj
+ET
+0.22 0.74 0.97 RG
+0.5 w
+48. 592. m
+564. 592. l
+S
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.886 0.941 0.984 rg
+48. 564. Td
+(Camden) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 546. Td
+(Student ID: Elam) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 530. Td
+(Tuesday, October 13, 2026) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 40. Td
+(Governors State University · IT 4560: Introduction to Virtualization) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 26. Td
+(HarborTech Operations Playbook · Submitted via Blackboard Ultra) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 5300
+>>
+stream
+0.5 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.22 0.741 0.973 rg
+48. 733. Td
+(SECTION 2 | EVIDENCE REVIEW AND ANALYSIS) Tj
+ET
+0.22 0.74 0.97 RG
+0.4 w
+48. 719. m
+564. 719. l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 702. Td
+(Response 1 | Daily report: compute model and workload evidence) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 685. Td
+(A daily report is a good fit for AWS Lambda because it runs briefly, only once each morning, and does not need to store) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 670.5 Td
+(local state between runs. This avoids paying to keep an EC2 instance idle.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 639. Td
+(Response 2 | API Gateway and Lambda: request flow and responsibilities) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 622. Td
+(API Gateway receives API requests and routes them to Lambda, which runs the application code. HarborTech still) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 607.5 Td
+(manages the code, error handling, and integrations with other services.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 576. Td
+(Response 3 | Continuously running workload: VM, container, or Lambda) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 559. Td
+(Lambda is less suitable because the application needs a custom OS package and host-level troubleshooting access. A VM) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 544.5 Td
+(may be better for full OS control, while containers may work if the package is supported. Check OS requirements and) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 530. Td
+(access needs first.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.22 0.741 0.973 rg
+48. 491.5 Td
+(SECTION 3 | COMPUTE MODEL RECOMMENDATION) Tj
+ET
+0.22 0.74 0.97 RG
+0.4 w
+48. 477.5 m
+564. 477.5 l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 460.5 Td
+(HarborTech internal recommendation | TKT-2026-0006) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 443.5 Td
+(The current EC2 instance runs 24/7 but has low utilization, averaging only 2% CPU. The reporting task runs once each) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 429. Td
+(morning for about 4.5 minutes, while the API receives intermittent requests throughout the day. I recommend moving both) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 414.5 Td
+(workloads to serverless services because they only need to run when triggered.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 385.5 Td
+(For reporting, EventBridge Scheduler would trigger AWS Lambda each morning. For the API, API Gateway would handle) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 371. Td
+(incoming requests and route them to Lambda. AWS would manage the underlying servers, operating system, scaling, and) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 356.5 Td
+(infrastructure maintenance. HarborTech would still manage the application code, dependencies, IAM permissions, data) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 342. Td
+(security, and monitoring.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 313. Td
+(Before implementation, I would verify the application's dependencies, runtime, database connections, and scheduled tasks.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 298.5 Td
+(I would compare report outputs and test API performance during a two-week parallel run. The main assumption is that) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 284. Td
+(neither workload requires special operating-system access or persistent local storage. Any hidden dependencies or) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 269.5 Td
+(workload limits should be escalated before migration. If the report exceeds Lambda's limits, ECS on Fargate would be the) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 255. Td
+(fallback.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.22 0.741 0.973 rg
+48. 216.5 Td
+(SECTION 4 | HARBORTECH OPERATIONS PLAYBOOK) Tj
+ET
+0.22 0.74 0.97 RG
+0.4 w
+48. 202.5 m
+564. 202.5 l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 185.5 Td
+(Direct GitHub URL | week06-containers-serverless.md) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 168.5 Td
+(https://github.com/Celam444453/Harbortech-playbook/blob/main/week06-containers-serverless.pdf) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.22 0.741 0.973 rg
+48. 137. Td
+(PLAYBOOK CONFIRMATION) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.886 0.941 0.984 rg
+48. 122. Td
+(Camden confirms that week06-containers-serverless.md has been published to a public GitHub repository and is accessible at the URL) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.886 0.941 0.984 rg
+48. 109. Td
+(above.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.682 0.769 0.835 rg
+48. 86. Td
+(HarborTech Operations Playbook | Week 6 | Submit PDF to Blackboard Ultra) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20261013202320-05'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000006763 00000 n 
+0000008588 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000001306 00000 n 
+0000001411 00000 n 
+0000006826 00000 n 
+0000006951 00000 n 
+0000007081 00000 n 
+0000007214 00000 n 
+0000007352 00000 n 
+0000007476 00000 n 
+0000007605 00000 n 
+0000007737 00000 n 
+0000007873 00000 n 
+0000008001 00000 n 
+0000008128 00000 n 
+0000008257 00000 n 
+0000008390 00000 n 
+0000008492 00000 n 
+0000008838 00000 n 
+0000008924 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <2AE20AEF24E4A9D4876D9BFD3280FAFE> <2AE20AEF24E4A9D4876D9BFD3280FAFE> ]
+>>
+startxref
+9028
+%%EOF
