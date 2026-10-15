@@ -1,0 +1,498 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4778
+>>
+stream
+0.200025 w
+0 G
+1. g
+0. 792. 612. -792. re
+f
+0.06 0.19 0.31 rg
+0. 792. 612. -7. re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.333 0.392 0.451 rg
+48. 30. Td
+(IT 4560 | HarborTech Solutions | Week 6) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.333 0.392 0.451 rg
+538.8799999999999955 30. Td
+(Page 1) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.059 0.275 0.49 rg
+48. 744. Td
+(HARBORTECH SOLUTIONS) Tj
+ET
+BT
+/F2 15 Tf
+17.25 TL
+0.078 0.157 0.255 rg
+48. 726. Td
+(Week 6 | Workload-Fit Matrix | TKT-2026-0006) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.235 0.294 0.353 rg
+48. 703. Td
+(Client: Bright Path Community Services) Tj
+ET
+BT
+/F2 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 679. Td
+(Student: Camden Elam) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 665. Td
+(Student ID: 1522505) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.275 0.333 0.392 rg
+48. 651. Td
+(Exported: 10/14/2026, 10:26:11 PM) Tj
+ET
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.275 0.49 rg
+48. 619. Td
+(1. WORKLOAD-FIT MATRIX: A, B, AND C) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 598. Td
+(Workload A: Serverless \(AWS Lambda, triggered by EventBridge on a daily schedule\). The evidence is that it runs) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 583. Td
+(once each morning, finishes quickly, keeps no local state between runs, and sits idle otherwise. Short, scheduled,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 568. Td
+(stateless, bursty work is what serverless is built for, and you pay only for the seconds it runs. A VM or always-on) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 553. Td
+(container would sit idle and incur cost for most of the day.) Tj
+ET
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.275 0.49 rg
+48. 520. Td
+(2. LAMBDA, API GATEWAY, AND REMAINING RESPONSIBILITIES) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 499. Td
+(Workload A: Lambda alone is enough, since an EventBridge schedule triggers it and there are no inbound HTTP) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 484. Td
+(requests. API Gateway isn’t needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 469. Td
+(Workload B: Both. API Gateway provides the REST endpoint and handles request routing, throttling, and) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 454. Td
+(authorization. Lambda runs the code behind it.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 439. Td
+(What AWS takes over: Provisioning, patching, and scaling servers, managing the operating system and runtime) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 424. Td
+(infrastructure, and keeping capacity available.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 409. Td
+(What remains with the customer:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 394. Td
+(Function code and its dependencies.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 379. Td
+(IAM permissions with least privilege.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 364. Td
+(Secrets and configuration.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 349. Td
+(Data protection and API authentication and authorization.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 334. Td
+(Timeout and memory settings.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 319. Td
+(Logging, monitoring, and alerting.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 304. Td
+(Cost controls and throttling limits.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 289. Td
+(Serverless reduces server management but doesn’t remove responsibility for the application and its security.) Tj
+ET
+BT
+/F2 10 Tf
+11.5 TL
+0.059 0.275 0.49 rg
+48. 256. Td
+(3. VALIDATION ASSUMPTION AND INTERN ESCALATION) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 235. Td
+(Assumption to validate: Confirm that Workload A’s run really is stateless and finishes within Lambda’s limits \(the) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 220. Td
+(15-minute maximum timeout, memory, and any temporary storage needs\). Also confirm that Workload B’s traffic) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 205. Td
+(stays intermittent. If B’s traffic is steady or high, or its latency needs are strict, containers could be cheaper or more) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 190. Td
+(predictable than Lambda.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 175. Td
+(Decision for the intern to escalate: Any decision that affects security, cost, or availability. For example, which IAM) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 160. Td
+(permissions the function gets, whether the API is public or authenticated, or whether to move the custom-OS) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.098 0.165 0.235 rg
+48. 145. Td
+(Workload C off its VM. The intern can implement the approved design but shouldn’t unilaterally make these calls.) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20261014222611-05'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000004950 00000 n 
+0000006767 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000005007 00000 n 
+0000005132 00000 n 
+0000005262 00000 n 
+0000005395 00000 n 
+0000005532 00000 n 
+0000005655 00000 n 
+0000005784 00000 n 
+0000005916 00000 n 
+0000006052 00000 n 
+0000006180 00000 n 
+0000006307 00000 n 
+0000006436 00000 n 
+0000006569 00000 n 
+0000006671 00000 n 
+0000007015 00000 n 
+0000007101 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <59138E75171B6D99686342A1F6BB7729> <59138E75171B6D99686342A1F6BB7729> ]
+>>
+startxref
+7205
+%%EOF
